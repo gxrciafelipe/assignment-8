@@ -20,7 +20,7 @@ async function init() {
 }
 
 // Load albums from JSON
-async function loadAlbums() {
+async function loadAlbums123() {
     try {
         const response = await fetch('data.json');
         albums = await response.json();
